@@ -1,0 +1,97 @@
+body {
+  font-size: 16px;
+  font-family: 'Lobster', sans-serif;
+  color:#5890D0;
+}
+
+#header-nav {
+  background-color: #FBFA8C;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: #5890D0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav{
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+#nav-list {
+  padding-top: 10px;
+  background-color: #FBFA8C;
+  padding-bottom: 30px;
+}
+
+#nav-list div {
+  font-size: 1.5em;
+  color: #AEC6E1;
+  text-align: center;
+  vertical-align: center;
+  line-height: .5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #9DB8D7;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -37px;
+
+}
+
+
+
+h2, h3{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 30px;
+}
+
+body>.container{
+  clear:both;
+}
+
+.container>.row{
+
+  margin: 0 auto;
+
+}
+
+#desp{
+  margin-bottom: 50px;
+  position:relative;
+  background-color: #FAFBD6;
+  min-height: 280px;
+  overflow:auto;
+  clear:both;
+}
+
+#desp p{
+  position: absolute;
+  left:30px;
+  right:30px;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+  margin-top: -8px;
+}
+  }
